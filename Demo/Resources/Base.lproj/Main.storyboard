@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="frK-Jw-hI7">
+                                <rect key="frame" x="22" y="161" width="562" height="384"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Paste the copied text here:  ">
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="HelveticaNeue"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long press here to copy this label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="baI-HB-8PQ">
+                                <rect key="frame" x="165" y="90" width="271" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="317-6B-QOm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="copyingEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uz-W7-KIu">
+                                <rect key="frame" x="165" y="125" width="271" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="271" id="erK-zg-bJe"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Long">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" press this ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="attributed">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" label to copy">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="copyingEnabled" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-6E-EEH">
+                                <rect key="frame" x="162" y="38" width="277" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="277" id="Y1H-Sj-4DT"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Copy Enabled"/>
+                                    <segment title="Copy Disabled"/>
+                                </segments>
+                                <connections>
+                                    <action selector="copyingOptionsChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ZFU-2N-t3O"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="baI-HB-8PQ" firstAttribute="top" secondItem="QPe-6E-EEH" secondAttribute="bottom" constant="24" id="34j-vC-h3t"/>
+                            <constraint firstItem="baI-HB-8PQ" firstAttribute="top" secondItem="QPe-6E-EEH" secondAttribute="bottom" constant="24" id="AiZ-e6-o2X"/>
+                            <constraint firstItem="2uz-W7-KIu" firstAttribute="top" secondItem="baI-HB-8PQ" secondAttribute="bottom" constant="18" id="FMc-hv-oTI"/>
+                            <constraint firstItem="QPe-6E-EEH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="JOz-Fv-Txk"/>
+                            <constraint firstAttribute="centerX" secondItem="2uz-W7-KIu" secondAttribute="centerX" id="KDt-wF-7N4"/>
+                            <constraint firstItem="frK-Jw-hI7" firstAttribute="top" secondItem="2uz-W7-KIu" secondAttribute="bottom" constant="18" id="WlA-sZ-ZQi"/>
+                            <constraint firstItem="frK-Jw-hI7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="efX-4K-4Mm"/>
+                            <constraint firstAttribute="centerX" secondItem="QPe-6E-EEH" secondAttribute="centerX" id="gvo-d7-IPc"/>
+                            <constraint firstAttribute="centerX" secondItem="baI-HB-8PQ" secondAttribute="centerX" id="h9q-Gw-urf"/>
+                            <constraint firstItem="2uz-W7-KIu" firstAttribute="top" secondItem="baI-HB-8PQ" secondAttribute="bottom" constant="18" id="of6-Qh-E8U"/>
+                            <constraint firstItem="frK-Jw-hI7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qEU-Ud-DUi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="frK-Jw-hI7" secondAttribute="bottom" constant="55" id="wJH-yH-Oqc"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="attributedTextLabel" destination="2uz-W7-KIu" id="rPf-xK-W13"/>
+                        <outlet property="textLabel" destination="baI-HB-8PQ" id="e4Z-Js-Wfa"/>
+                    </connections>
+                </viewController>
+            </objects>
+        </scene>
+    </scenes>
+</document>
