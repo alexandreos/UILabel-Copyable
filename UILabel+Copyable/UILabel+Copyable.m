@@ -43,20 +43,8 @@
 
 - (BOOL)canPerformAction:(SEL)action withSender:(id)sender
 {
-    BOOL retValue = NO;
-    
-    if (action == @selector(copy:))
-    {
-        retValue = self.copyingEnabled;
-	}
-    else
-    {
-        // Pass the canPerformAction:withSender: message to the superclass
-        // and possibly up the responder chain.
-        retValue = [super canPerformAction:action withSender:sender];
-    }
-    
-    return retValue;
+    // Only return YES for the copy: action AND the copyingEnabled property is YES.
+    return (action == @selector(copy:) && self.copyingEnabled);
 }
 
 - (void)copy:(id)sender
