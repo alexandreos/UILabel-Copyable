@@ -12,7 +12,7 @@ A simple UILabel category meant to add copy functionality to it.
 # Installation
 
 ### CocoaPods
-The easiest way of installing UILabel+Copyable is via [Cocoapods](http://cocoapods.org/). 
+The easiest way of installing UILabel+Copyable is via [CocoaPods](http://cocoapods.org/). 
 
 ```
 pod 'UILabel+Copyable', '~> 1.0.0'
