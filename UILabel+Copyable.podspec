@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "UILabel+Copyable"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple category to add copy functionality to UILabel."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://twitter.com/alexandre_o_s"
   
   s.platform     = :ios
-  s.source       = { :git => "https://github.com/alexandreos/UILabel-Copyable.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/alexandreos/UILabel-Copyable.git", :tag => "1.0.1" }
 
   s.source_files  = "UILabel+Copyable/**/*.{h,m}"
   
