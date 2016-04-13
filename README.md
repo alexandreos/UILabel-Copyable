@@ -39,6 +39,9 @@ Included is a demo project showing how to use it from a storyboard.
 ![UILabel+Copyable](https://raw.githubusercontent.com/alexandreos/UILabel-Copyable/screenshots/screenshot.png)
 
 # Change log
+* version 1.0.1
+* Resolved issue #1.
+
 * version 1.0.0
 * Initial release
 
