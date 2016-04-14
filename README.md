@@ -6,7 +6,7 @@ A simple UILabel category meant to add copy functionality to it.
 # Features
 - Supports Interface Builder
 - Supports long press gesture
-- Allows enable/disble the copy feature
+- Allows enable/disable the copy feature
 - Works with all UILabel objects already in your project
 
 # Installation
@@ -14,7 +14,7 @@ A simple UILabel category meant to add copy functionality to it.
 ### CocoaPods
 The easiest way of installing UILabel+Copyable is via [CocoaPods](http://cocoapods.org/). 
 
-```
+```ruby
 pod 'UILabel+Copyable', '~> 1.0.0'
 ```
 
@@ -28,10 +28,21 @@ pod 'UILabel+Copyable', '~> 1.0.0'
 
 Just import the category header: `#import "UILabel+Copyable.h"` and then set the `copyingEnabled` property to `YES`:
 
-```  objective-c
+```objective-c
 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
 label.copyingEnabled = enabled;
 [self.view addSubview:label];
+```
+
+The same thing can be done with IBOutlet UILabel:
+
+```objective-c
+@property (nonatomic, weak) IBOutlet UILabel *label;
+
+....
+
+self.label.copyingEnabled = enabled;
+
 ```
 
 Included is a demo project showing how to use it from a storyboard.
@@ -40,10 +51,10 @@ Included is a demo project showing how to use it from a storyboard.
 
 # Change log
 * version 1.0.1
-* Resolved issue #1.
+  * Resolved issue [#1](https://github.com/alexandreos/UILabel-Copyable/issues/1).
 
 * version 1.0.0
-* Initial release
+  * Initial release
 
 # License
 
