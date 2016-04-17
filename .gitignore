@@ -10,6 +10,7 @@
 *.pbxuser
 xcuserdata
 *.xccheckout
+DerivedData/
 
 # Build products
 build/
