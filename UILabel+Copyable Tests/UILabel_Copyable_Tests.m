@@ -45,7 +45,8 @@
 - (void)testProperties
 {
     XCTAssertFalse([self.label canPerformAction:@selector(copy:) withSender:nil], @"'-canPerformAction:withSender:' should return YES for the copy: selector");
-    XCTAssertNoThrow([self.label canPerformAction:nil withSender:nil]);
+    SEL selector = nil;
+    XCTAssertNoThrow([self.label canPerformAction:selector withSender:nil]);
     
     // Validate defaults
     XCTAssertFalse(self.label.copyingEnabled, @"Default 'copyingEnabled' should be NO");
