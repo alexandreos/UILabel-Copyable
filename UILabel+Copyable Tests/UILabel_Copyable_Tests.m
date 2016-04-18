@@ -81,4 +81,16 @@
     XCTAssertTrue([pasteboard.string isEqualToString:self.label.text]);
 }
 
+- (void)testCustomLongPressGestureRecognizer {
+    UILongPressGestureRecognizer *gestureRecognizer = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:nil];
+    self.label.copyingEnabled = YES;
+    self.label.longPressGestureRecognizer = gestureRecognizer;
+    
+    XCTAssertEqualObjects(self.label.longPressGestureRecognizer, gestureRecognizer);
+    
+    self.label.shouldUseLongPressGestureRecognizer = NO;
+    
+    XCTAssertNil(self.label.longPressGestureRecognizer);
+}
+
 @end
