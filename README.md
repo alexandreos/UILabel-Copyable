@@ -1,6 +1,5 @@
-UILabel+Copyable
+UILabel+Copyable [![Build Status](https://travis-ci.org/alexandreos/UILabel-Copyable.svg?branch=master)](https://travis-ci.org/alexandreos/UILabel-Copyable)
 ===
-
 A simple UILabel category meant to add copy functionality to it.
 
 # Features
