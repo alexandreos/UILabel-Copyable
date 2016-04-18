@@ -9,7 +9,11 @@ cache:
   - bundler
 
 before_install:
+  - pip install codecov
   - brew update
 
 script:
   - rake test
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
