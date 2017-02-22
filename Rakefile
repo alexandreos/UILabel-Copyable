@@ -31,7 +31,7 @@ end
 
 def devices
   {
-    ios: "name='iPhone 7'",
+    ios: "name='iPhone 7',OS=10.2",
     osx: "arch='x86_64'"
   }
 end
