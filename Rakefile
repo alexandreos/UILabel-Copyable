@@ -31,7 +31,7 @@ end
 
 def devices
   {
-    ios: "name='iPhone 6s'",
+    ios: "name='iPhone 7'",
     osx: "arch='x86_64'"
   }
 end
@@ -73,7 +73,7 @@ end
 
 desc 'Build, then run tests.'
 task :test do
-
+    sh "gem install xcpretty"
   test_targets.map do |platform|
     execute 'build test', platform, xcprety_args: '--test'
   end

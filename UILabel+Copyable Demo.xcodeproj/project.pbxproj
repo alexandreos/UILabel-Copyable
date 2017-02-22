@@ -43,6 +43,7 @@
 		8A9AFEF11AD88798009CFF22 /* UILabel+Copyable Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel+Copyable Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9AFEF41AD88798009CFF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_Copyable_Tests.m; sourceTree = "<group>"; };
+		8AB9D4AB1E5DF85400E02390 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Rakefile; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +144,7 @@
 		8A9AFEF31AD88798009CFF22 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AB9D4AB1E5DF85400E02390 /* Rakefile */,
 				8A9AFEF41AD88798009CFF22 /* Info.plist */,
 			);
 			name = "Supporting Files";
