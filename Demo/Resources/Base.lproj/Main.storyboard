@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="frK-Jw-hI7">
-                                <rect key="frame" x="22" y="161" width="562" height="384"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="26" y="187" width="368" height="620"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Paste the copied text here:  ">
                                         <attributes>
@@ -32,47 +29,41 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long press here to copy this label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="11" translatesAutoresizingMaskIntoConstraints="NO" id="baI-HB-8PQ">
-                                <rect key="frame" x="165" y="90" width="271" height="17"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="271" id="317-6B-QOm"/>
-                                </constraints>
+                                <rect key="frame" x="98" y="117" width="218" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="copyingEnabled" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2uz-W7-KIu">
-                                <rect key="frame" x="165" y="125" width="271" height="18"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="271" id="erK-zg-bJe"/>
-                                </constraints>
+                                <rect key="frame" x="92" y="152" width="230.5" height="17"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Long">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" press this ">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content="attributed">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name="HelveticaNeue-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" label to copy">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="14" name=".HelveticaNeueDeskInterface-Regular"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
                                         </attributes>
@@ -84,10 +75,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="QPe-6E-EEH">
-                                <rect key="frame" x="162" y="38" width="277" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="277" id="Y1H-Sj-4DT"/>
-                                </constraints>
+                                <rect key="frame" x="98.5" y="62" width="217" height="32"/>
                                 <segments>
                                     <segment title="Copy Enabled"/>
                                     <segment title="Copy Disabled"/>
@@ -97,28 +85,29 @@
                                 </connections>
                             </segmentedControl>
                         </subviews>
-                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="baI-HB-8PQ" firstAttribute="top" secondItem="QPe-6E-EEH" secondAttribute="bottom" constant="24" id="34j-vC-h3t"/>
-                            <constraint firstItem="baI-HB-8PQ" firstAttribute="top" secondItem="QPe-6E-EEH" secondAttribute="bottom" constant="24" id="AiZ-e6-o2X"/>
-                            <constraint firstItem="2uz-W7-KIu" firstAttribute="top" secondItem="baI-HB-8PQ" secondAttribute="bottom" constant="18" id="FMc-hv-oTI"/>
-                            <constraint firstItem="QPe-6E-EEH" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="18" id="JOz-Fv-Txk"/>
-                            <constraint firstAttribute="centerX" secondItem="2uz-W7-KIu" secondAttribute="centerX" id="KDt-wF-7N4"/>
+                            <constraint firstItem="QPe-6E-EEH" firstAttribute="top" secondItem="oFy-tx-fkg" secondAttribute="top" constant="18" id="JOz-Fv-Txk"/>
+                            <constraint firstItem="oFy-tx-fkg" firstAttribute="centerX" secondItem="2uz-W7-KIu" secondAttribute="centerX" id="KDt-wF-7N4"/>
                             <constraint firstItem="frK-Jw-hI7" firstAttribute="top" secondItem="2uz-W7-KIu" secondAttribute="bottom" constant="18" id="WlA-sZ-ZQi"/>
                             <constraint firstItem="frK-Jw-hI7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="6" id="efX-4K-4Mm"/>
-                            <constraint firstAttribute="centerX" secondItem="QPe-6E-EEH" secondAttribute="centerX" id="gvo-d7-IPc"/>
-                            <constraint firstAttribute="centerX" secondItem="baI-HB-8PQ" secondAttribute="centerX" id="h9q-Gw-urf"/>
+                            <constraint firstItem="oFy-tx-fkg" firstAttribute="centerX" secondItem="QPe-6E-EEH" secondAttribute="centerX" id="gvo-d7-IPc"/>
+                            <constraint firstItem="oFy-tx-fkg" firstAttribute="centerX" secondItem="baI-HB-8PQ" secondAttribute="centerX" id="h9q-Gw-urf"/>
                             <constraint firstItem="2uz-W7-KIu" firstAttribute="top" secondItem="baI-HB-8PQ" secondAttribute="bottom" constant="18" id="of6-Qh-E8U"/>
                             <constraint firstItem="frK-Jw-hI7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="qEU-Ud-DUi"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="frK-Jw-hI7" secondAttribute="bottom" constant="55" id="wJH-yH-Oqc"/>
+                            <constraint firstItem="oFy-tx-fkg" firstAttribute="bottom" secondItem="frK-Jw-hI7" secondAttribute="bottom" constant="55" id="wJH-yH-Oqc"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="oFy-tx-fkg"/>
                     </view>
                     <connections>
                         <outlet property="attributedTextLabel" destination="2uz-W7-KIu" id="rPf-xK-W13"/>
                         <outlet property="textLabel" destination="baI-HB-8PQ" id="e4Z-Js-Wfa"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="34" y="31"/>
         </scene>
     </scenes>
 </document>
