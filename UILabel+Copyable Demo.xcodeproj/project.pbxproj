@@ -12,7 +12,6 @@
 		8A9664E51AD8524200C057D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9664DB1AD8524200C057D0 /* main.m */; };
 		8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664DF1AD8524200C057D0 /* Main.storyboard */; };
 		8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664E11AD8524200C057D0 /* Images.xcassets */; };
-		8A9664EC1AD852C800C057D0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664EB1AD852C800C057D0 /* Default-568h@2x.png */; };
 		8A9AFEF61AD88798009CFF22 /* UILabel_Copyable_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */; };
 		B88ED58A23E8D3DF00A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */; };
 		B88ED59123E8D3DF00A16E05 /* UILabel_CopyableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ED59023E8D3DF00A16E05 /* UILabel_CopyableTests.swift */; };
@@ -77,7 +76,6 @@
 		8A9664DB1AD8524200C057D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A9664E01AD8524200C057D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A9664E11AD8524200C057D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8A9664EB1AD852C800C057D0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8A9AFEF11AD88798009CFF22 /* UILabel+Copyable Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel+Copyable Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9AFEF41AD88798009CFF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_Copyable_Tests.m; sourceTree = "<group>"; };
@@ -171,7 +169,6 @@
 		8A9664DC1AD8524200C057D0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				8A9664EB1AD852C800C057D0 /* Default-568h@2x.png */,
 				8A9664DF1AD8524200C057D0 /* Main.storyboard */,
 				8A9664E11AD8524200C057D0 /* Images.xcassets */,
 			);
@@ -367,7 +364,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */,
-				8A9664EC1AD852C800C057D0 /* Default-568h@2x.png in Resources */,
 				8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
