@@ -208,7 +208,7 @@
 			};
 			buildConfigurationList = 8A9664A61AD8517C00C057D0 /* Build configuration list for PBXProject "UILabel+Copyable Demo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
