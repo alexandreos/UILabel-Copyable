@@ -3,7 +3,7 @@
 //  UILabel+CopyableTests
 //
 //  Created by Alexandre Oliveira Santos on 2/3/20.
-//  Copyright © 2020 iAOS. All rights reserved.
+//  Copyright © 2020 Alexandre Santos. All rights reserved.
 //
 
 import XCTest

@@ -14,23 +14,23 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A9664AA1AD8517C00C057D0"
-               BuildableName = "UILabel+Copyable Demo.app"
-               BlueprintName = "UILabel+Copyable Demo"
-               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
+               BlueprintIdentifier = "B88ED5AA23E8DD1100A16E05"
+               BuildableName = "UILabel_Copyable.framework"
+               BlueprintName = "UILabel+Copyable"
+               ReferencedContainer = "container:UILabel+Copyable/UILabel+Copyable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A9AFEF01AD88798009CFF22"
-               BuildableName = "UILabel+Copyable Tests.xctest"
-               BlueprintName = "UILabel+Copyable Tests"
+               BlueprintIdentifier = "8A9664AA1AD8517C00C057D0"
+               BuildableName = "UILabel+Copyable Demo.app"
+               BlueprintName = "UILabel+Copyable Demo"
                ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -54,26 +54,6 @@
          </BuildableReference>
       </MacroExpansion>
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8A9AFEF01AD88798009CFF22"
-               BuildableName = "UILabel+Copyable Tests.xctest"
-               BlueprintName = "UILabel+Copyable Tests"
-               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B88ED58823E8D3DF00A16E05"
-               BuildableName = "UILabel+CopyableTests.xctest"
-               BlueprintName = "UILabel+CopyableTests"
-               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

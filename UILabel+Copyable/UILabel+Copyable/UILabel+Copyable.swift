@@ -98,9 +98,14 @@ public extension UILabel {
             becomeFirstResponder()
 
             let copyMenu = UIMenuController.shared
-            copyMenu.setTargetRect(bounds, in: self)
             copyMenu.arrowDirection = .default
-            copyMenu.setMenuVisible(true, animated: true)
+            if #available(iOS 13.0, *) {
+                copyMenu.showMenu(from: self, rect: bounds)
+            } else {
+                // Fallback on earlier versions
+                copyMenu.setTargetRect(bounds, in: self)
+                copyMenu.setMenuVisible(true, animated: true)
+            }
         }
     }
 

@@ -12,43 +12,24 @@
 		8A9664E51AD8524200C057D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9664DB1AD8524200C057D0 /* main.m */; };
 		8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664DF1AD8524200C057D0 /* Main.storyboard */; };
 		8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664E11AD8524200C057D0 /* Images.xcassets */; };
-		8A9AFEF61AD88798009CFF22 /* UILabel_Copyable_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */; };
-		B88ED58A23E8D3DF00A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */; };
-		B88ED59123E8D3DF00A16E05 /* UILabel_CopyableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ED59023E8D3DF00A16E05 /* UILabel_CopyableTests.swift */; };
-		B88ED59323E8D3DF00A16E05 /* UILabel_Copyable.h in Headers */ = {isa = PBXBuildFile; fileRef = B88ED58323E8D3DF00A16E05 /* UILabel_Copyable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B88ED59623E8D3DF00A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */; };
-		B88ED59723E8D3DF00A16E05 /* UILabel_Copyable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		B88ED5A023E8D41700A16E05 /* UILabel+Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ED59F23E8D41600A16E05 /* UILabel+Copyable.swift */; };
+		B88ED5DC23E8DF8500A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */; };
+		B88ED5DD23E8DF8500A16E05 /* UILabel_Copyable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8A9AFEF71AD88798009CFF22 /* PBXContainerItemProxy */ = {
+		B88ED5D823E8DF7800A16E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A9664A31AD8517C00C057D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A9664AA1AD8517C00C057D0;
-			remoteInfo = "UILabel+Copyable Demo";
-		};
-		B88ED58B23E8D3DF00A16E05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A9664A31AD8517C00C057D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B88ED58023E8D3DF00A16E05;
+			containerPortal = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B88ED5AB23E8DD1100A16E05;
 			remoteInfo = "UILabel+Copyable";
 		};
-		B88ED58D23E8D3DF00A16E05 /* PBXContainerItemProxy */ = {
+		B88ED5DA23E8DF7800A16E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8A9664A31AD8517C00C057D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8A9664AA1AD8517C00C057D0;
-			remoteInfo = "UILabel+Copyable Demo";
-		};
-		B88ED59423E8D3DF00A16E05 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8A9664A31AD8517C00C057D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B88ED58023E8D3DF00A16E05;
-			remoteInfo = "UILabel+Copyable";
+			containerPortal = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B88ED5B423E8DD1100A16E05;
+			remoteInfo = "UILabel+CopyableTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -59,7 +40,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B88ED59723E8D3DF00A16E05 /* UILabel_Copyable.framework in Embed Frameworks */,
+				B88ED5DD23E8DF8500A16E05 /* UILabel_Copyable.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,17 +57,10 @@
 		8A9664DB1AD8524200C057D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A9664E01AD8524200C057D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A9664E11AD8524200C057D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8A9AFEF11AD88798009CFF22 /* UILabel+Copyable Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel+Copyable Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9AFEF41AD88798009CFF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_Copyable_Tests.m; sourceTree = "<group>"; };
 		8AB9D4AB1E5DF85400E02390 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Rakefile; sourceTree = SOURCE_ROOT; };
-		B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UILabel_Copyable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88ED58323E8D3DF00A16E05 /* UILabel_Copyable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UILabel_Copyable.h; sourceTree = "<group>"; };
-		B88ED58423E8D3DF00A16E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B88ED58923E8D3DF00A16E05 /* UILabel+CopyableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel+CopyableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B88ED59023E8D3DF00A16E05 /* UILabel_CopyableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel_CopyableTests.swift; sourceTree = "<group>"; };
-		B88ED59223E8D3DF00A16E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B88ED59F23E8D41600A16E05 /* UILabel+Copyable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Copyable.swift"; sourceTree = "<group>"; };
+		B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UILabel+Copyable.xcodeproj"; path = "UILabel+Copyable/UILabel+Copyable.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,29 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88ED59623E8D3DF00A16E05 /* UILabel_Copyable.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A9AFEEE1AD88798009CFF22 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED57E23E8D3DF00A16E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED58623E8D3DF00A16E05 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88ED58A23E8D3DF00A16E05 /* UILabel_Copyable.framework in Frameworks */,
+				B88ED5DC23E8DF8500A16E05 /* UILabel_Copyable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,11 +78,11 @@
 		8A9664A21AD8517C00C057D0 = {
 			isa = PBXGroup;
 			children = (
+				B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */,
 				8A9664D41AD8524200C057D0 /* Demo */,
 				8A9AFEF21AD88798009CFF22 /* UILabel+Copyable Tests */,
-				B88ED58223E8D3DF00A16E05 /* UILabel+Copyable */,
-				B88ED58F23E8D3DF00A16E05 /* UILabel+CopyableTests */,
 				8A9664AC1AD8517C00C057D0 /* Products */,
+				B88ED5D023E8DEAE00A16E05 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,9 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				8A9664AB1AD8517C00C057D0 /* UILabel+Copyable Demo.app */,
-				8A9AFEF11AD88798009CFF22 /* UILabel+Copyable Tests.xctest */,
-				B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */,
-				B88ED58923E8D3DF00A16E05 /* UILabel+CopyableTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,37 +151,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		B88ED58223E8D3DF00A16E05 /* UILabel+Copyable */ = {
+		B88ED5D023E8DEAE00A16E05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B88ED59F23E8D41600A16E05 /* UILabel+Copyable.swift */,
-				B88ED58323E8D3DF00A16E05 /* UILabel_Copyable.h */,
-				B88ED58423E8D3DF00A16E05 /* Info.plist */,
 			);
-			path = "UILabel+Copyable";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B88ED58F23E8D3DF00A16E05 /* UILabel+CopyableTests */ = {
+		B88ED5D423E8DF7800A16E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B88ED59023E8D3DF00A16E05 /* UILabel_CopyableTests.swift */,
-				B88ED59223E8D3DF00A16E05 /* Info.plist */,
+				B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */,
+				B88ED5DB23E8DF7800A16E05 /* UILabel+CopyableTests.xctest */,
 			);
-			path = "UILabel+CopyableTests";
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		B88ED57C23E8D3DF00A16E05 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88ED59323E8D3DF00A16E05 /* UILabel_Copyable.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		8A9664AA1AD8517C00C057D0 /* UILabel+Copyable Demo */ = {
@@ -247,67 +182,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				B88ED59523E8D3DF00A16E05 /* PBXTargetDependency */,
 			);
 			name = "UILabel+Copyable Demo";
 			productName = "UILabel+Copiable Demo";
 			productReference = 8A9664AB1AD8517C00C057D0 /* UILabel+Copyable Demo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		8A9AFEF01AD88798009CFF22 /* UILabel+Copyable Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8A9AFEF91AD88798009CFF22 /* Build configuration list for PBXNativeTarget "UILabel+Copyable Tests" */;
-			buildPhases = (
-				8A9AFEED1AD88798009CFF22 /* Sources */,
-				8A9AFEEE1AD88798009CFF22 /* Frameworks */,
-				8A9AFEEF1AD88798009CFF22 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8A9AFEF81AD88798009CFF22 /* PBXTargetDependency */,
-			);
-			name = "UILabel+Copyable Tests";
-			productName = "UILabel+Copyable Tests";
-			productReference = 8A9AFEF11AD88798009CFF22 /* UILabel+Copyable Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		B88ED58023E8D3DF00A16E05 /* UILabel+Copyable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B88ED59823E8D3DF00A16E05 /* Build configuration list for PBXNativeTarget "UILabel+Copyable" */;
-			buildPhases = (
-				B88ED57C23E8D3DF00A16E05 /* Headers */,
-				B88ED57D23E8D3DF00A16E05 /* Sources */,
-				B88ED57E23E8D3DF00A16E05 /* Frameworks */,
-				B88ED57F23E8D3DF00A16E05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "UILabel+Copyable";
-			productName = "UILabel+Copyable";
-			productReference = B88ED58123E8D3DF00A16E05 /* UILabel_Copyable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		B88ED58823E8D3DF00A16E05 /* UILabel+CopyableTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B88ED59C23E8D3DF00A16E05 /* Build configuration list for PBXNativeTarget "UILabel+CopyableTests" */;
-			buildPhases = (
-				B88ED58523E8D3DF00A16E05 /* Sources */,
-				B88ED58623E8D3DF00A16E05 /* Frameworks */,
-				B88ED58723E8D3DF00A16E05 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B88ED58C23E8D3DF00A16E05 /* PBXTargetDependency */,
-				B88ED58E23E8D3DF00A16E05 /* PBXTargetDependency */,
-			);
-			name = "UILabel+CopyableTests";
-			productName = "UILabel+CopyableTests";
-			productReference = B88ED58923E8D3DF00A16E05 /* UILabel+CopyableTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -323,18 +202,6 @@
 						CreatedOnToolsVersion = 6.3;
 						LastSwiftMigration = 1130;
 					};
-					8A9AFEF01AD88798009CFF22 = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 8A9664AA1AD8517C00C057D0;
-					};
-					B88ED58023E8D3DF00A16E05 = {
-						CreatedOnToolsVersion = 11.3.1;
-						LastSwiftMigration = 1130;
-					};
-					B88ED58823E8D3DF00A16E05 = {
-						CreatedOnToolsVersion = 11.3.1;
-						TestTargetID = 8A9664AA1AD8517C00C057D0;
-					};
 				};
 			};
 			buildConfigurationList = 8A9664A61AD8517C00C057D0 /* Build configuration list for PBXProject "UILabel+Copyable Demo" */;
@@ -348,15 +215,35 @@
 			mainGroup = 8A9664A21AD8517C00C057D0;
 			productRefGroup = 8A9664AC1AD8517C00C057D0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = B88ED5D423E8DF7800A16E05 /* Products */;
+					ProjectRef = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8A9664AA1AD8517C00C057D0 /* UILabel+Copyable Demo */,
-				8A9AFEF01AD88798009CFF22 /* UILabel+Copyable Tests */,
-				B88ED58023E8D3DF00A16E05 /* UILabel+Copyable */,
-				B88ED58823E8D3DF00A16E05 /* UILabel+CopyableTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = UILabel_Copyable.framework;
+			remoteRef = B88ED5D823E8DF7800A16E05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		B88ED5DB23E8DF7800A16E05 /* UILabel+CopyableTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "UILabel+CopyableTests.xctest";
+			remoteRef = B88ED5DA23E8DF7800A16E05 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8A9664A91AD8517C00C057D0 /* Resources */ = {
@@ -365,27 +252,6 @@
 			files = (
 				8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */,
 				8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8A9AFEEF1AD88798009CFF22 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED57F23E8D3DF00A16E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED58723E8D3DF00A16E05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,54 +268,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8A9AFEED1AD88798009CFF22 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8A9AFEF61AD88798009CFF22 /* UILabel_Copyable_Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED57D23E8D3DF00A16E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88ED5A023E8D41700A16E05 /* UILabel+Copyable.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B88ED58523E8D3DF00A16E05 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B88ED59123E8D3DF00A16E05 /* UILabel_CopyableTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		8A9AFEF81AD88798009CFF22 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A9664AA1AD8517C00C057D0 /* UILabel+Copyable Demo */;
-			targetProxy = 8A9AFEF71AD88798009CFF22 /* PBXContainerItemProxy */;
-		};
-		B88ED58C23E8D3DF00A16E05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B88ED58023E8D3DF00A16E05 /* UILabel+Copyable */;
-			targetProxy = B88ED58B23E8D3DF00A16E05 /* PBXContainerItemProxy */;
-		};
-		B88ED58E23E8D3DF00A16E05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8A9664AA1AD8517C00C057D0 /* UILabel+Copyable Demo */;
-			targetProxy = B88ED58D23E8D3DF00A16E05 /* PBXContainerItemProxy */;
-		};
-		B88ED59523E8D3DF00A16E05 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B88ED58023E8D3DF00A16E05 /* UILabel+Copyable */;
-			targetProxy = B88ED59423E8D3DF00A16E05 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8A9664DF1AD8524200C057D0 /* Main.storyboard */ = {
@@ -570,10 +389,10 @@
 		8A9664CF1AD8517C00C057D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,193 +407,17 @@
 		8A9664D01AD8517C00C057D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Demo/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iaos.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		8A9AFEFA1AD88798009CFF22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "UILabel+Copyable Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iaos.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel+Copyable Demo.app/UILabel+Copyable Demo";
-			};
-			name = Debug;
-		};
-		8A9AFEFB1AD88798009CFF22 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = "UILabel+Copyable Tests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.iaos.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel+Copyable Demo.app/UILabel+Copyable Demo";
-			};
-			name = Release;
-		};
-		B88ED59923E8D3DF00A16E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "UILabel+Copyable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
 				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandreos.UILabel-Copyable";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B88ED59A23E8D3DF00A16E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "UILabel+Copyable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandreos.UILabel-Copyable";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B88ED59D23E8D3DF00A16E05 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = G6WU9N9PN6;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "UILabel+CopyableTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandreos.UILabel-CopyableTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iaos.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel+Copyable Demo.app/UILabel+Copyable Demo";
-			};
-			name = Debug;
-		};
-		B88ED59E23E8D3DF00A16E05 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = G6WU9N9PN6;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = "UILabel+CopyableTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alexandreos.UILabel-CopyableTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UILabel+Copyable Demo.app/UILabel+Copyable Demo";
 			};
 			name = Release;
 		};
@@ -795,33 +438,6 @@
 			buildConfigurations = (
 				8A9664CF1AD8517C00C057D0 /* Debug */,
 				8A9664D01AD8517C00C057D0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8A9AFEF91AD88798009CFF22 /* Build configuration list for PBXNativeTarget "UILabel+Copyable Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A9AFEFA1AD88798009CFF22 /* Debug */,
-				8A9AFEFB1AD88798009CFF22 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B88ED59823E8D3DF00A16E05 /* Build configuration list for PBXNativeTarget "UILabel+Copyable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B88ED59923E8D3DF00A16E05 /* Debug */,
-				B88ED59A23E8D3DF00A16E05 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B88ED59C23E8D3DF00A16E05 /* Build configuration list for PBXNativeTarget "UILabel+CopyableTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B88ED59D23E8D3DF00A16E05 /* Debug */,
-				B88ED59E23E8D3DF00A16E05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

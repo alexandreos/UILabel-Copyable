@@ -2,8 +2,8 @@ def type
   :project # set `:project` for xcodeproj and `:workspace` for xcworkspace
 end
 
-def project_name
-  "UILabel+Copyable Demo.xcodeproj"
+def project_path
+  "UILabel+Copyable/UILabel+Copyable.xcodeproj"
 end
 
 def configuration
@@ -61,10 +61,10 @@ def execute(tasks, platform, xcprety_args)
   # check if xcodebuild needs to be run on multiple devices
   if destination.respond_to?('map')
     destination.map do |destination|
-      xcodebuild type, project_name, scheme, configuration, sdk, destination, tasks, codecoverage, xcprety_args
+      xcodebuild type, project_path, scheme, configuration, sdk, destination, tasks, codecoverage, xcprety_args
     end
   else
-    xcodebuild type, project_name, scheme, configuration, sdk, destination, tasks, codecoverage, xcprety_args
+    xcodebuild type, project_path, scheme, configuration, sdk, destination, tasks, codecoverage, xcprety_args
   end
 
 end

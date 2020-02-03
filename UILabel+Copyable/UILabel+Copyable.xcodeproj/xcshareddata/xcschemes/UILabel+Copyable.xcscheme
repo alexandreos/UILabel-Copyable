@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B88ED58023E8D3DF00A16E05"
+               BlueprintIdentifier = "B88ED5AA23E8DD1100A16E05"
                BuildableName = "UILabel_Copyable.framework"
                BlueprintName = "UILabel+Copyable"
-               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
+               ReferencedContainer = "container:UILabel+Copyable.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B88ED58823E8D3DF00A16E05"
+               BlueprintIdentifier = "B88ED5B323E8DD1100A16E05"
                BuildableName = "UILabel+CopyableTests.xctest"
                BlueprintName = "UILabel+CopyableTests"
-               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
+               ReferencedContainer = "container:UILabel+Copyable.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -60,10 +60,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B88ED58023E8D3DF00A16E05"
+            BlueprintIdentifier = "B88ED5AA23E8DD1100A16E05"
             BuildableName = "UILabel_Copyable.framework"
             BlueprintName = "UILabel+Copyable"
-            ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
+            ReferencedContainer = "container:UILabel+Copyable.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>
