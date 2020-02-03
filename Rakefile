@@ -18,21 +18,19 @@ end
 
 def schemes
   {
-    ios: 'UILabel+Copyable Demo'
+    ios: 'UILabel+Copyable'
   }
 end
 
 def sdks
   {
-    ios: 'iphonesimulator',
-    osx: 'macosx'
+    ios: 'iphonesimulator'
   }
 end
 
 def devices
   {
-    ios: "name='iPhone 7',OS=10.2",
-    osx: "arch='x86_64'"
+    ios: "name='iPhone 11',OS=13.3"
   }
 end
 
