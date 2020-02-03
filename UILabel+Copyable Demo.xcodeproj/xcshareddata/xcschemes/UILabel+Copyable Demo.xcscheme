@@ -64,6 +64,16 @@
                ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "B88ED58823E8D3DF00A16E05"
+               BuildableName = "UILabel+CopyableTests.xctest"
+               BlueprintName = "UILabel+CopyableTests"
+               ReferencedContainer = "container:UILabel+Copyable Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

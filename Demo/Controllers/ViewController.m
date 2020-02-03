@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UILabel+Copyable.h"
+@import UILabel_Copyable;
 
 @interface ViewController ()
 
