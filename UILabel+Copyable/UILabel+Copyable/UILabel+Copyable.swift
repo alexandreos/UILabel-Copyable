@@ -29,20 +29,20 @@ public extension UILabel {
     // MARK: - Custom Flags
 
     private struct AssociatedKeys {
-        static var copyingEnabled: UInt8 = 0
+        static var isCopyingEnabled: UInt8 = 0
         static var shouldUseLongPressGestureRecognizer: UInt8 = 1
         static var longPressGestureRecognizer: UInt8 = 2
     }
 
     /// Set this property to `true` in order to enable the copy feature. Defaults to `false`.
     @objc
-    @IBInspectable var copyingEnabled: Bool {
+    @IBInspectable var isCopyingEnabled: Bool {
         set {
-            objc_setAssociatedObject(self, &AssociatedKeys.copyingEnabled, newValue, .OBJC_ASSOCIATION_ASSIGN)
+            objc_setAssociatedObject(self, &AssociatedKeys.isCopyingEnabled, newValue, .OBJC_ASSOCIATION_ASSIGN)
             setupGestureRecognizers()
         }
         get {
-            let value = objc_getAssociatedObject(self, &AssociatedKeys.copyingEnabled)
+            let value = objc_getAssociatedObject(self, &AssociatedKeys.isCopyingEnabled)
             return (value as? Bool) ?? false
         }
     }
@@ -73,18 +73,18 @@ public extension UILabel {
 
     @objc
     override var canBecomeFirstResponder: Bool {
-        return copyingEnabled
+        return isCopyingEnabled
     }
 
     @objc
     override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
         // Only return `true` when it's the copy: action AND the `copyingEnabled` property is `true`.
-        return (action == #selector(self.copy(_:)) && copyingEnabled)
+        return (action == #selector(self.copy(_:)) && isCopyingEnabled)
     }
 
     @objc
     override func copy(_ sender: Any?) {
-        if copyingEnabled {
+        if isCopyingEnabled {
             // Copy the label text
             let pasteboard = UIPasteboard.general
             pasteboard.string = text
@@ -94,7 +94,7 @@ public extension UILabel {
     // MARK: - UI Actions
 
     @objc internal func longPressGestureRecognized(gestureRecognizer: UIGestureRecognizer) {
-        if gestureRecognizer == longPressGestureRecognizer && gestureRecognizer.state == .began {
+        if gestureRecognizer === longPressGestureRecognizer && gestureRecognizer.state == .began {
             becomeFirstResponder()
 
             let copyMenu = UIMenuController.shared
@@ -118,13 +118,13 @@ public extension UILabel {
             longPressGestureRecognizer = nil
         }
 
-        if shouldUseLongPressGestureRecognizer && copyingEnabled {
+        if shouldUseLongPressGestureRecognizer && isCopyingEnabled {
             isUserInteractionEnabled = true
             // Enable gesture recognizer
             let longPressGR = UILongPressGestureRecognizer(target: self,
                                                            action: #selector(longPressGestureRecognized(gestureRecognizer:)))
-            addGestureRecognizer(longPressGR)
             longPressGestureRecognizer = longPressGR
+            addGestureRecognizer(longPressGR)
         }
     }
 }

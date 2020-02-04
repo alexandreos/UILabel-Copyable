@@ -23,8 +23,8 @@
 - (IBAction)copyingOptionsChanged:(UISegmentedControl *)segmentedControl
 {
     BOOL enabled = segmentedControl.selectedSegmentIndex == 0;
-    self.textLabel.copyingEnabled = enabled;
-    self.attributedTextLabel.copyingEnabled = enabled;
+    self.textLabel.isCopyingEnabled = enabled;
+    self.attributedTextLabel.isCopyingEnabled = enabled;
 }
 
 @end
