@@ -11,24 +11,98 @@ import XCTest
 
 class UILabel_CopyableTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    func testCanBecomeFirstResponderShouldBeFalseByDefault() {
+        // Given
+        let label = newLabel()
+
+        // When
+        let canBecomeFirstResponder = label.canBecomeFirstResponder
+
+        // Then
+        XCTAssertFalse(canBecomeFirstResponder)
     }
 
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    func testCanBecomeFirstResponderShouldBeTrueWhenIsCopyingEnabledIsTrue() {
+        // Given
+        let label = newLabel()
+        label.isCopyingEnabled = true
+
+        // When
+        let canBecomeFirstResponder = label.canBecomeFirstResponder
+
+        // Then
+        XCTAssertTrue(canBecomeFirstResponder)
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCanPerformActionShouldBeFalseByDefault() {
+        // Given
+        let label = newLabel()
+
+        // When
+        let canPerformAction = label.canPerformAction(#selector(label.copy(_:)), withSender: nil)
+
+        // Then
+        XCTAssertFalse(canPerformAction)
     }
 
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCanPerformActionShouldBeTrueWhenIsCopyingEnabledIsTrue() {
+        // Given
+        let label = newLabel()
+        label.isCopyingEnabled = true
+
+        // When
+        let canPerformAction = label.canPerformAction(#selector(label.copy(_:)), withSender: nil)
+
+        // Then
+        XCTAssertTrue(canPerformAction)
     }
 
+    func testCopyActionShouldSetTextToPasteboard() {
+        // Given
+        let pasteboard = UIPasteboard.general
+        pasteboard.string = ""
+        let label = newLabel()
+        label.text = "Some test text"
+        label.isCopyingEnabled = true
+
+        // When
+        label.copy(nil)
+
+        // Then
+        XCTAssertEqual(pasteboard.string, label.text)
+    }
+
+    func testLongPressGestureRecognizerShouldPresentMenu() {
+        // Given
+        let label = newLabel()
+        label.isCopyingEnabled = true
+        label.shouldUseLongPressGestureRecognizer = true
+        UIMenuController.shared.arrowDirection = .up
+
+        // When
+        label.longPressGestureRecognizer?.state = .began
+        label.longPressGestureRecognized(gestureRecognizer: label.longPressGestureRecognizer!)
+
+        // Then
+        XCTAssertEqual(UIMenuController.shared.arrowDirection, .default)
+    }
+
+//    func testLongPressGestureRecognizerShouldBeNilWhenSetToFalse() {
+//        // Given
+//        let label = newLabel()
+//        label.isCopyingEnabled = true
+//
+//        // When
+//        label.shouldUseLongPressGestureRecognizer = false
+//
+//        // Then
+//        XCTAssertNil(label.longPressGestureRecognizer)
+//    }
+
+}
+
+extension UILabel_CopyableTests {
+    fileprivate func newLabel() -> UILabel {
+        UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
+    }
 }

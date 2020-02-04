@@ -57,9 +57,6 @@
 		8A9664DB1AD8524200C057D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8A9664E01AD8524200C057D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A9664E11AD8524200C057D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		8A9AFEF41AD88798009CFF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_Copyable_Tests.m; sourceTree = "<group>"; };
-		8AB9D4AB1E5DF85400E02390 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Rakefile; sourceTree = SOURCE_ROOT; };
 		B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UILabel+Copyable.xcodeproj"; path = "UILabel+Copyable/UILabel+Copyable.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,7 +77,6 @@
 			children = (
 				B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */,
 				8A9664D41AD8524200C057D0 /* Demo */,
-				8A9AFEF21AD88798009CFF22 /* UILabel+Copyable Tests */,
 				8A9664AC1AD8517C00C057D0 /* Products */,
 				B88ED5D023E8DEAE00A16E05 /* Frameworks */,
 			);
@@ -129,24 +125,6 @@
 			children = (
 				8A9664DA1AD8524200C057D0 /* Info.plist */,
 				8A9664DB1AD8524200C057D0 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8A9AFEF21AD88798009CFF22 /* UILabel+Copyable Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8A9AFEF51AD88798009CFF22 /* UILabel_Copyable_Tests.m */,
-				8A9AFEF31AD88798009CFF22 /* Supporting Files */,
-			);
-			path = "UILabel+Copyable Tests";
-			sourceTree = "<group>";
-		};
-		8A9AFEF31AD88798009CFF22 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8AB9D4AB1E5DF85400E02390 /* Rakefile */,
-				8A9AFEF41AD88798009CFF22 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";

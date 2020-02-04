@@ -76,6 +76,6 @@ task :test do
     execute 'build test', platform, xcprety_args: '--test'
   end
 
-  sh "killall Simulator"
+  # sh "killall Simulator"
 
 end
