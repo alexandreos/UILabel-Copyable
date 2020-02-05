@@ -10,10 +10,13 @@ cache:
 
 before_install:
   - brew update
+  - rvm use $RVM_RUBY_VERSION
+
+install: bundle install --without=documentation --path ../travis_bundle_dir
 
 script:
   - rake test
 
-after_success:
+after_success: 
   - slather
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -f path/to/xml_report/cobertura.xml -X coveragepy -X gcov -X xcode
