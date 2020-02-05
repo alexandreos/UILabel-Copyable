@@ -11,6 +11,11 @@
 		B88ED5BA23E8DD1100A16E05 /* UILabel_CopyableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ED5B923E8DD1100A16E05 /* UILabel_CopyableTests.swift */; };
 		B88ED5BC23E8DD1100A16E05 /* UILabel_Copyable.h in Headers */ = {isa = PBXBuildFile; fileRef = B88ED5AE23E8DD1100A16E05 /* UILabel_Copyable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B88ED5CF23E8DD3300A16E05 /* UILabel+Copyable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ED5CE23E8DD3300A16E05 /* UILabel+Copyable.swift */; };
+		B88ED60E23E9FD7900A16E05 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60923E9FD7900A16E05 /* CHANGELOG.md */; };
+		B88ED60F23E9FD7900A16E05 /* UILabel+Copyable.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60A23E9FD7900A16E05 /* UILabel+Copyable.podspec */; };
+		B88ED61023E9FD7900A16E05 /* Rakefile in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60B23E9FD7900A16E05 /* Rakefile */; };
+		B88ED61123E9FD7900A16E05 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60C23E9FD7900A16E05 /* README.md */; };
+		B88ED61223E9FD7900A16E05 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60D23E9FD7900A16E05 /* LICENSE.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,11 @@
 		B88ED5B923E8DD1100A16E05 /* UILabel_CopyableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel_CopyableTests.swift; sourceTree = "<group>"; };
 		B88ED5BB23E8DD1100A16E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88ED5CE23E8DD3300A16E05 /* UILabel+Copyable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Copyable.swift"; sourceTree = "<group>"; };
+		B88ED60923E9FD7900A16E05 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		B88ED60A23E9FD7900A16E05 /* UILabel+Copyable.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = "UILabel+Copyable.podspec"; sourceTree = "<group>"; };
+		B88ED60B23E9FD7900A16E05 /* Rakefile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Rakefile; sourceTree = "<group>"; };
+		B88ED60C23E9FD7900A16E05 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B88ED60D23E9FD7900A16E05 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +65,7 @@
 		B88ED5A123E8DD1100A16E05 = {
 			isa = PBXGroup;
 			children = (
+				B88ED60823E9FD6700A16E05 /* Supporting Files */,
 				B88ED5AD23E8DD1100A16E05 /* UILabel+Copyable */,
 				B88ED5B823E8DD1100A16E05 /* UILabel+CopyableTests */,
 				B88ED5AC23E8DD1100A16E05 /* Products */,
@@ -87,6 +98,18 @@
 				B88ED5BB23E8DD1100A16E05 /* Info.plist */,
 			);
 			path = "UILabel+CopyableTests";
+			sourceTree = "<group>";
+		};
+		B88ED60823E9FD6700A16E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B88ED60923E9FD7900A16E05 /* CHANGELOG.md */,
+				B88ED60D23E9FD7900A16E05 /* LICENSE.md */,
+				B88ED60B23E9FD7900A16E05 /* Rakefile */,
+				B88ED60C23E9FD7900A16E05 /* README.md */,
+				B88ED60A23E9FD7900A16E05 /* UILabel+Copyable.podspec */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +204,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88ED61223E9FD7900A16E05 /* LICENSE.md in Resources */,
+				B88ED61023E9FD7900A16E05 /* Rakefile in Resources */,
+				B88ED60F23E9FD7900A16E05 /* UILabel+Copyable.podspec in Resources */,
+				B88ED61123E9FD7900A16E05 /* README.md in Resources */,
+				B88ED60E23E9FD7900A16E05 /* CHANGELOG.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

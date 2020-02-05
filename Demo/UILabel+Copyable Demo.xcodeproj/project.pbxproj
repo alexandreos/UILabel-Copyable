@@ -7,29 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A9664E21AD8524200C057D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9664D71AD8524200C057D0 /* AppDelegate.m */; };
-		8A9664E31AD8524200C057D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9664D91AD8524200C057D0 /* ViewController.m */; };
-		8A9664E51AD8524200C057D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9664DB1AD8524200C057D0 /* main.m */; };
-		8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664DF1AD8524200C057D0 /* Main.storyboard */; };
-		8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9664E11AD8524200C057D0 /* Images.xcassets */; };
-		B88ED5DC23E8DF8500A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */; };
-		B88ED5DD23E8DF8500A16E05 /* UILabel_Copyable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88ED5EE23E9FA4400A16E05 /* UILabel_Copyable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5E723E9F9A700A16E05 /* UILabel_Copyable.framework */; };
+		B88ED5EF23E9FA4400A16E05 /* UILabel_Copyable.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B88ED5E723E9F9A700A16E05 /* UILabel_Copyable.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B88ED5FE23E9FC7400A16E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B88ED5FB23E9FC7400A16E05 /* ViewController.m */; };
+		B88ED5FF23E9FC7400A16E05 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B88ED5FC23E9FC7400A16E05 /* AppDelegate.m */; };
+		B88ED60323E9FC8700A16E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60123E9FC8700A16E05 /* Main.storyboard */; };
+		B88ED60523E9FCB200A16E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B88ED60423E9FCB200A16E05 /* main.m */; };
+		B88ED60723E9FD0000A16E05 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88ED60623E9FD0000A16E05 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B88ED5D823E8DF7800A16E05 /* PBXContainerItemProxy */ = {
+		B88ED5E623E9F9A700A16E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+			containerPortal = B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B88ED5AB23E8DD1100A16E05;
 			remoteInfo = "UILabel+Copyable";
 		};
-		B88ED5DA23E8DF7800A16E05 /* PBXContainerItemProxy */ = {
+		B88ED5E823E9F9A700A16E05 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+			containerPortal = B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = B88ED5B423E8DD1100A16E05;
 			remoteInfo = "UILabel+CopyableTests";
+		};
+		B88ED5F323E9FB3500A16E05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B88ED5AA23E8DD1100A16E05;
+			remoteInfo = "UILabel+Copyable";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B88ED5DD23E8DF8500A16E05 /* UILabel_Copyable.framework in Embed Frameworks */,
+				B88ED5EF23E9FA4400A16E05 /* UILabel_Copyable.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,15 +56,15 @@
 
 /* Begin PBXFileReference section */
 		8A9664AB1AD8517C00C057D0 /* UILabel+Copyable Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UILabel+Copyable Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8A9664D61AD8524200C057D0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8A9664D71AD8524200C057D0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8A9664D81AD8524200C057D0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8A9664D91AD8524200C057D0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8A9664DA1AD8524200C057D0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A9664DB1AD8524200C057D0 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8A9664E01AD8524200C057D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A9664E11AD8524200C057D0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UILabel+Copyable.xcodeproj"; path = "UILabel+Copyable/UILabel+Copyable.xcodeproj"; sourceTree = "<group>"; };
+		B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "UILabel+Copyable.xcodeproj"; path = "../UILabel+Copyable.xcodeproj"; sourceTree = "<group>"; };
+		B88ED5FA23E9FC7400A16E05 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B88ED5FB23E9FC7400A16E05 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B88ED5FC23E9FC7400A16E05 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B88ED5FD23E9FC7400A16E05 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B88ED60223E9FC8700A16E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B88ED60423E9FCB200A16E05 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		B88ED60623E9FD0000A16E05 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88ED5DC23E8DF8500A16E05 /* UILabel_Copyable.framework in Frameworks */,
+				B88ED5EE23E9FA4400A16E05 /* UILabel_Copyable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +82,10 @@
 		8A9664A21AD8517C00C057D0 = {
 			isa = PBXGroup;
 			children = (
-				B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */,
-				8A9664D41AD8524200C057D0 /* Demo */,
+				B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */,
+				B88ED5F923E9FC7400A16E05 /* Controllers */,
+				B88ED60023E9FC8700A16E05 /* Resources */,
+				8A9664ED1AD852F200C057D0 /* Supporting Files */,
 				8A9664AC1AD8517C00C057D0 /* Products */,
 				B88ED5D023E8DEAE00A16E05 /* Frameworks */,
 			);
@@ -90,43 +99,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8A9664D41AD8524200C057D0 /* Demo */ = {
-			isa = PBXGroup;
-			children = (
-				8A9664D51AD8524200C057D0 /* Controllers */,
-				8A9664ED1AD852F200C057D0 /* Supporting Files */,
-				8A9664DC1AD8524200C057D0 /* Resources */,
-			);
-			path = Demo;
-			sourceTree = "<group>";
-		};
-		8A9664D51AD8524200C057D0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				8A9664D61AD8524200C057D0 /* AppDelegate.h */,
-				8A9664D71AD8524200C057D0 /* AppDelegate.m */,
-				8A9664D81AD8524200C057D0 /* ViewController.h */,
-				8A9664D91AD8524200C057D0 /* ViewController.m */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		8A9664DC1AD8524200C057D0 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8A9664DF1AD8524200C057D0 /* Main.storyboard */,
-				8A9664E11AD8524200C057D0 /* Images.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		8A9664ED1AD852F200C057D0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B88ED60423E9FCB200A16E05 /* main.m */,
 				8A9664DA1AD8524200C057D0 /* Info.plist */,
-				8A9664DB1AD8524200C057D0 /* main.m */,
 			);
 			name = "Supporting Files";
+			path = Source/Source;
 			sourceTree = "<group>";
 		};
 		B88ED5D023E8DEAE00A16E05 /* Frameworks */ = {
@@ -136,13 +116,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B88ED5D423E8DF7800A16E05 /* Products */ = {
+		B88ED5E223E9F9A700A16E05 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */,
-				B88ED5DB23E8DF7800A16E05 /* UILabel+CopyableTests.xctest */,
+				B88ED5E723E9F9A700A16E05 /* UILabel_Copyable.framework */,
+				B88ED5E923E9F9A700A16E05 /* UILabel+CopyableTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B88ED5F923E9FC7400A16E05 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B88ED5FA23E9FC7400A16E05 /* AppDelegate.h */,
+				B88ED5FB23E9FC7400A16E05 /* ViewController.m */,
+				B88ED5FC23E9FC7400A16E05 /* AppDelegate.m */,
+				B88ED5FD23E9FC7400A16E05 /* ViewController.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B88ED60023E9FC8700A16E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B88ED60123E9FC8700A16E05 /* Main.storyboard */,
+				B88ED60623E9FD0000A16E05 /* Images.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +160,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				B88ED5F423E9FB3500A16E05 /* PBXTargetDependency */,
 			);
 			name = "UILabel+Copyable Demo";
 			productName = "UILabel+Copiable Demo";
@@ -195,8 +196,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = B88ED5D423E8DF7800A16E05 /* Products */;
-					ProjectRef = B88ED5D323E8DF7800A16E05 /* UILabel+Copyable.xcodeproj */;
+					ProductGroup = B88ED5E223E9F9A700A16E05 /* Products */;
+					ProjectRef = B88ED5E123E9F9A700A16E05 /* UILabel+Copyable.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -207,18 +208,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		B88ED5D923E8DF7800A16E05 /* UILabel_Copyable.framework */ = {
+		B88ED5E723E9F9A700A16E05 /* UILabel_Copyable.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = UILabel_Copyable.framework;
-			remoteRef = B88ED5D823E8DF7800A16E05 /* PBXContainerItemProxy */;
+			remoteRef = B88ED5E623E9F9A700A16E05 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		B88ED5DB23E8DF7800A16E05 /* UILabel+CopyableTests.xctest */ = {
+		B88ED5E923E9F9A700A16E05 /* UILabel+CopyableTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "UILabel+CopyableTests.xctest";
-			remoteRef = B88ED5DA23E8DF7800A16E05 /* PBXContainerItemProxy */;
+			remoteRef = B88ED5E823E9F9A700A16E05 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -228,8 +229,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9664E71AD8524200C057D0 /* Main.storyboard in Resources */,
-				8A9664E81AD8524200C057D0 /* Images.xcassets in Resources */,
+				B88ED60323E9FC8700A16E05 /* Main.storyboard in Resources */,
+				B88ED60723E9FD0000A16E05 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,19 +241,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9664E31AD8524200C057D0 /* ViewController.m in Sources */,
-				8A9664E51AD8524200C057D0 /* main.m in Sources */,
-				8A9664E21AD8524200C057D0 /* AppDelegate.m in Sources */,
+				B88ED5FE23E9FC7400A16E05 /* ViewController.m in Sources */,
+				B88ED60523E9FCB200A16E05 /* main.m in Sources */,
+				B88ED5FF23E9FC7400A16E05 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		B88ED5F423E9FB3500A16E05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UILabel+Copyable";
+			targetProxy = B88ED5F323E9FB3500A16E05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
-		8A9664DF1AD8524200C057D0 /* Main.storyboard */ = {
+		B88ED60123E9FC8700A16E05 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8A9664E01AD8524200C057D0 /* Base */,
+				B88ED60223E9FC8700A16E05 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -371,7 +380,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -389,7 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				INFOPLIST_FILE = Demo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

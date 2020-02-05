@@ -3,7 +3,7 @@ def type
 end
 
 def project_path
-  "UILabel+Copyable/UILabel+Copyable.xcodeproj"
+  "UILabel+Copyable.xcodeproj"
 end
 
 def configuration
