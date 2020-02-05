@@ -12,7 +12,7 @@ before_install:
   - brew update
   - rvm use $RVM_RUBY_VERSION
 
-install: bundle install --without=documentation --path ../travis_bundle_dir
+install: gem install slather
 
 script:
   - rake test
