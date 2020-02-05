@@ -87,17 +87,17 @@ class UILabel_CopyableTests: XCTestCase {
         XCTAssertEqual(UIMenuController.shared.arrowDirection, .default)
     }
 
-//    func testLongPressGestureRecognizerShouldBeNilWhenSetToFalse() {
-//        // Given
-//        let label = newLabel()
-//        label.isCopyingEnabled = true
-//
-//        // When
-//        label.shouldUseLongPressGestureRecognizer = false
-//
-//        // Then
-//        XCTAssertNil(label.longPressGestureRecognizer)
-//    }
+    func testLongPressGestureRecognizerShouldBeNilWhenSetToFalse() {
+        // Given
+        let label = newLabel()
+        label.isCopyingEnabled = true
+
+        // When
+        label.shouldUseLongPressGestureRecognizer = false
+
+        // Then
+        XCTAssertNil(label.longPressGestureRecognizer)
+    }
 
 }
 
