@@ -25,12 +25,13 @@ pod 'UILabel+Copyable', '~> 2.0'
 
 Just import the module: `import UILabel_Copyable` and then set the `isCopyingEnabled` property to `true`:
 
+Swift:
 ```swift
-let label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
+let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 30))
 label.isCopyingEnabled = true
-[self.view addSubview:label];
+view.addSubview(label)
 ```
-
+Objective-C:
 ```objective-c
 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
 label.isCopyingEnabled = YES;
@@ -39,13 +40,14 @@ label.isCopyingEnabled = YES;
 
 The same thing can be done with IBOutlet UILabel:
 
-```objective-c
-@property (nonatomic, weak) IBOutlet UILabel *label;
+Swift:
+```swift
+import UILabel_Copyable
 
-....
+@IBOutlet weak var label: UILabel?
 
-self.label.isCopyingEnabled = enabled;
-
+// ...
+label?.isCopyingEnabled = true
 ```
 
 Included is a demo project showing how to use it from a storyboard.
