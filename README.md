@@ -14,22 +14,26 @@ A simple UILabel category meant to add copy functionality to it.
 The easiest way of installing UILabel+Copyable is via [CocoaPods](http://cocoapods.org/). 
 
 ```ruby
-pod 'UILabel+Copyable', '~> 1.0.0'
+pod 'UILabel+Copyable', '~> 2.0'
 ```
 
 ### Old-fashioned way
 
-- Add `UILabel+Copyable.h` and `UILabel+Copyable.m` to your project.
-- `#import "UILabel+Copyable.h"` where you want to use the control.
-- These files require **ARC**.
+- Add `UILabel+Copyable.swift` to your project.
 
 # Usage
 
-Just import the category header: `#import "UILabel+Copyable.h"` and then set the `copyingEnabled` property to `YES`:
+Just import the module: `import UILabel_Copyable` and then set the `isCopyingEnabled` property to `true`:
+
+```swift
+let label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
+label.isCopyingEnabled = true
+[self.view addSubview:label];
+```
 
 ```objective-c
 UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
-label.copyingEnabled = enabled;
+label.isCopyingEnabled = YES;
 [self.view addSubview:label];
 ```
 
@@ -40,7 +44,7 @@ The same thing can be done with IBOutlet UILabel:
 
 ....
 
-self.label.copyingEnabled = enabled;
+self.label.isCopyingEnabled = enabled;
 
 ```
 
@@ -49,11 +53,7 @@ Included is a demo project showing how to use it from a storyboard.
 ![UILabel+Copyable](https://raw.githubusercontent.com/alexandreos/UILabel-Copyable/screenshots/screenshot.png)
 
 # Change log
-* version 1.0.1
-  * Resolved issue [#1](https://github.com/alexandreos/UILabel-Copyable/issues/1).
-
-* version 1.0.0
-  * Initial release
+Please see  [CHANGELOG](CHANGELOG.md) 
 
 # License
 
