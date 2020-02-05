@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: UILabel+Copyable.xcodeproj
+scheme: UILabel+Copyable
+configuration: Debug
+source_directory: UILabel+Copyable
+output_directory: coverage
