@@ -2,13 +2,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "UILabel-Copyable",
+    name: "UILabel+Copyable",
     platforms: [
         .iOS(.v12),
     ],
     products: [
         .library(
-            name: "UILabel-Copyable",
+            name: "UILabel+Copyable",
             targets: ["UILabel+Copyable"]),
     ],
     dependencies: [
