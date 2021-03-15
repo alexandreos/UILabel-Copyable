@@ -11,10 +11,22 @@ A simple UILabel category meant to add copy functionality to it.
 # Installation
 
 ### CocoaPods
-The easiest way of installing UILabel+Copyable is via [CocoaPods](http://cocoapods.org/). 
+UILabel+Copyable is available via [CocoaPods](http://cocoapods.org/). 
 
 ```ruby
 pod 'UILabel+Copyable', '~> 2.0'
+```
+
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is also supported
+
+Once you have your Swift package set up, adding UILabel+Copyable as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift`:
+
+```swift
+dependencies: [
+    .package(url: "https://github.com/alexandreos/UILabel-Copyable.git", .upToNextMajor(from: "2.0"))
+]
 ```
 
 ### Old-fashioned way
