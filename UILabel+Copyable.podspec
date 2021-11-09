@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
 
     s.source_files  = "UILabel+Copyable/**/*.{swift}"
     s.swift_version = '5.1'
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '9.0'
     s.ios.framework = 'UIKit'
 
 end
