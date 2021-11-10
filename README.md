@@ -1,4 +1,4 @@
-UILabel+Copyable ![Supported Platforms](https://img.shields.io/cocoapods/p/UILabel+Copyable.svg) [![Latest pod release](https://img.shields.io/cocoapods/v/UILabel+Copyable.svg)](https://cocoapods.org/pods/UILabel+Copyable) [![Build Status](https://travis-ci.org/alexandreos/UILabel-Copyable.svg?branch=master)](https://travis-ci.org/alexandreos/UILabel-Copyable) [![codecov.io](https://codecov.io/github/alexandreos/UILabel-Copyable/coverage.svg?branch=master)](https://codecov.io/github/alexandreos/UILabel-Copyable?branch=master)
+UILabel+Copyable ![Supported Platforms](https://img.shields.io/cocoapods/p/UILabel+Copyable.svg) [![Latest pod release](https://img.shields.io/cocoapods/v/UILabel+Copyable.svg)](https://cocoapods.org/pods/UILabel+Copyable) [![Build Status](https://app.bitrise.io/app/7eff086561407162/status.svg?token=4zX9iPJQ5OC9OxOw6EdzNw&branch=master)](https://app.bitrise.io/app/7eff086561407162) [![codecov.io](https://codecov.io/github/alexandreos/UILabel-Copyable/coverage.svg?branch=master)](https://codecov.io/github/alexandreos/UILabel-Copyable?branch=master)
 ===
 A simple UILabel category meant to add copy functionality to it.
 
