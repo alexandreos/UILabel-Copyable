@@ -62,7 +62,7 @@ import UILabel_Copyable
 label?.isCopyingEnabled = true
 ```
 
-Included is a demo project showing how to use it from a storyboard.
+There is a demo project included in the `Demo` folder, which shows how to use it from a storyboard.
 
 ![UILabel+Copyable](https://raw.githubusercontent.com/alexandreos/UILabel-Copyable/screenshots/screenshot.png)
 
